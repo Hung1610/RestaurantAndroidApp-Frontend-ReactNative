@@ -14,7 +14,7 @@ class Drawbar extends Component {
     super();
     //Setting up the Main Top Large Image of the Custom Sidebar
     this.proileImage =
-      'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png';
+      'https://cdn3.iconfinder.com/data/icons/careers-women-2/64/catering-service-waitress-restaurant-employee-512.png';
     //Array of the sidebar navigation option with icon and screen to navigate
     //This screens can be any screen defined in Drawer Navigator in App.js
     //You can find the Icons from here https://material.io/tools/icons/
@@ -44,14 +44,14 @@ class Drawbar extends Component {
               onPress={() => {
                 this.props.navigation.navigate('Index');
               }}>
-              <View style={{marginRight: 10, marginLeft: 20}}>
-                <Icon name="camera" size={25} color="#808080" />
+              <View style={{marginRight: 10, marginLeft: 10}}>
+                <Icon name="home" size={25} color="#808080" />
               </View>
               <Text
                 style={{
                   fontSize: 15,
                 }}>
-                {'Index'}
+                {'Trang chủ'}
               </Text>
             </TouchableOpacity>
           </View>
@@ -59,16 +59,16 @@ class Drawbar extends Component {
             <TouchableOpacity
               style={styles.container}
               onPress={() => {
-                this.props.navigation.navigate('Table');
+                this.props.navigation.navigate('AuthorInfo');
               }}>
-              <View style={{marginRight: 10, marginLeft: 20}}>
-                <Icon name="list-ul" size={25} color="#808080" />
+              <View style={{marginRight: 10, marginLeft: 10}}>
+                <Icon name="info-circle" size={25} color="#808080" />
               </View>
               <Text
                 style={{
                   fontSize: 15,
                 }}>
-                {'Table'}
+                {'Thông tin tác giả'}
               </Text>
             </TouchableOpacity>
           </View>
@@ -97,7 +97,7 @@ class Drawbar extends Component {
                   {cancelable: false},
                 )
               }>
-              <View style={{marginRight: 10, marginLeft: 20}}>
+              <View style={{marginRight: 10, marginLeft: 10}}>
                 <Icon name="sign-out-alt" size={25} color="#808080" />
               </View>
               <Text

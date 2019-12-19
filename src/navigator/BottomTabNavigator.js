@@ -39,10 +39,10 @@ const BottomTabNavigator = createBottomTabNavigator(
       tabBarVisible: true, // ẩn/ hiện menu bottom
     },
     tabBarOptions: {
-      activeTintColor: 'red',
-      inactiveTintColor: 'gray',
+      activeTintColor: 'rgba(255,234,0 ,1)',
+      inactiveTintColor: 'white',
       style: {
-        backgroundColor: 'white',
+        backgroundColor: 'rgba(33,33,33 ,1)',
         borderWidth: 0,
         shadowOffset: {width: 10, height: 5},
         shadowOpacity: 0,
